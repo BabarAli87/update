@@ -1,0 +1,23 @@
+.swal-custom-small .swal2-cancel,
+.swal-custom-small .swal2-confirm {
+    padding: 6px 20px
+}
+
+.swal-custom-small #swal2-title {
+    font-size: 20px
+}
+
+.basic-error {
+    color: red
+}
+
+.toasted.toasted-primary {
+    background: #c73c49!important
+}
+
+.toasted.competitions-message-toast {
+    background-color: #333!important;
+    color: hsla(0, 0%, 100%, .87);
+    padding: .6rem 4.1rem;
+    border-radius: 6px
+}

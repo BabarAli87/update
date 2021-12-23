@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/newsfeed.css" /> -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Kids niwa</title>
+</head>
+
+<body>
+    <!-- <div>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <div>
+                <a class="navbar-brand" href="#" style="color: #ffc000">Kids<span style="color: #ff6666;">Niwa</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="large material-icons">home</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"> <i class="large material-icons ">check</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">message</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">group</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">notifications</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">person</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">translate</i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div> -->
+
+
+
+
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top  ">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#" style="color: #ffc000;">Kids<span style="color: #ff6666;">Niwa</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="true" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+            <div class="collapse navbar-collapse   d-flex justify-content-center align-content-center  p2 " id="navbarWithDropdown">
+                <ul class="navbar-nav d-flex ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="large material-icons">home</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"> <i class="large material-icons ">check</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">message</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">group</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">notifications</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">person</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="large material-icons">translate</i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="d-flex">
+                <div class="custom-search">
+                    <input type="text" list="search-input" class="custom-search-input" placeholder="Search">
+
+                    <button class="custom-search-botton" type="submit"><i class="large material-icons">search</i></button>
+                </div>
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle text-white  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"  fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>&nbsp; User Profile
+                        </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <div>
+        <div class="side-menu">
+            <ul>
+                <a href="#">
+                    <li><i class="large material-icons">person</i>&nbsp; User Profile</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">comment</i>&nbsp; My Newsfeed</li>
+                </a>
+                <a href="#">
+                    <li> <i class="large material-icons">location_on</i>&nbsp; People Nearby</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">content_copy</i>&nbsp; Pages</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">group</i>&nbsp; Groups</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">contacts</i>&nbsp; Contacts</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">message</i>&nbsp; Measseges</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">videocam</i>&nbsp; Videos</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">image</i>&nbsp; Images</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">live_tv</i>&nbsp; Your video clip</li>
+                </a>
+                <a href="#">
+                    <li><i class="large material-icons">save</i>&nbsp; Saved Posts</li>
+                </a>
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle text-white  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"  fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                          </svg>&nbsp; User Profile
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <div class="create-post">
+
+            <div class="row mr-0">
+                <div></div>
+                <div class="col-md-12 col-sm-12 pr-0">
+                    <div class="form-goup">
+                        <textarea class="form-control" placeholder="Wrte what you want"></textarea>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="side-menu2">
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+                <li>e</li>
+            </ul>
+        </div>
+    </div> -->
+
+
+
+
+</body>
+
+
+</html>
